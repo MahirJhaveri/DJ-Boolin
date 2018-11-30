@@ -1,0 +1,56 @@
+.buffered {
+  height: 20px;
+  position: relative;
+  background: #555;
+  width: 300px;
+}
+
+#buffered-amount {
+  display: block;
+  height: 100%;
+  background-color: #777;
+  width: 0;
+}
+
+.progress {
+  margin-top: -20px;
+  height: 20px;
+  position: relative;
+  width: 300px;
+}
+
+#progress-amount {
+  display: block;
+  height: 100%;
+  background-color: #ff7f00;
+  width: 0;
+}
+
+.inLine > div{
+  display: inline-block;
+  padding-left: 20px;
+  font-family: Montserrat;
+}
+
+
+h1{
+  font-size: 90px;
+}
+
+h4{
+  font-size: 40px;
+}
+
+.image{
+  height: 300;
+  width: 300;
+  padding: 50px;
+  box-shadow: 0 0 21px 0px rgba(0,0,0,0.3);
+}
+
+.audioPlayer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: black;
+}
