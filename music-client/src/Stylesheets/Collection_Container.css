@@ -1,0 +1,33 @@
+
+
+
+.CollectionContainer{
+  display: inline-block;
+}
+
+.CollectionContainerButton{
+  display: inline-block;
+  background-color: white; /* Green */
+  border: 3px solid turquoise;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Montserrat;
+  color: turquoise;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 21px 0px rgba(0,0,0,0.3);
+}
+
+.CollectionContainerButton:hover{
+  background-color: white;
+  color: pink;
+  border: 3px solid pink;
+}
